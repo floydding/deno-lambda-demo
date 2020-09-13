@@ -8,6 +8,7 @@ export async function handler(
   event: APIGatewayProxyEvent,
   context: Context,
 ): Promise<APIGatewayProxyResult> {
+  console.log(event)
   const res = await fetch('https://jsonplaceholder.typicode.com/todos/1')
   const todo = await res.json()
   console.log('todo item', todo)
