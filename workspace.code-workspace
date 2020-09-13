@@ -1,0 +1,13 @@
+{
+  "folders": [{
+    "path": "infra",
+    "name": "Infrastructure"
+  }, {
+    "path": "src",
+    "name": "Source"
+  }
+],
+"settings": {
+  "debug.node.showUseWslIsDeprecatedWarning": false
+}
+}

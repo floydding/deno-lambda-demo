@@ -1,0 +1,6 @@
+{
+  "app": "npx ts-node bin/entry-point.ts",
+  "context": {
+    "aws-cdk:enableDiffNoFail": "true"
+  }
+}
